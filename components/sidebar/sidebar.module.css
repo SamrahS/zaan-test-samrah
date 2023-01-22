@@ -1,0 +1,116 @@
+.sidebarContainer {
+	background-color: #fff;
+	width: 270px;
+	border-right: 1px solid rgba(7, 15, 33, 0.08);
+	transition: width 0.2s;
+}
+
+.titleContainer {
+	display: flex;
+	padding: 0 15px 0 34px;
+	justify-content: space-between;
+	align-items: center;
+	height: 75px;
+	width: 220px;
+	border-bottom: 1px solid rgba(7, 15, 33, 0.08);
+}
+
+.companyNameContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.companyCircle {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border-radius: 7px;
+	margin-right: 8px;
+	background-color: #27E1BF;
+}
+
+.menuIcon {
+	opacity: 0.6;
+}
+
+.companyName {
+	font-weight: 500;
+	margin-right: 5px;
+	font-size: 16px;
+	white-space: nowrap;
+}
+
+.toggleButton {
+	color: #070F21;
+	background: none !important;
+	border: none !important;
+	outline: none !important;
+	padding: 0;
+	height: 20px;
+	cursor: pointer;
+}
+
+.toggleButton img {
+	opacity: 0.4;
+}
+
+.linksContainer {
+	padding: 24px 15px 12px 15px;
+	border-bottom: 1px solid rgba(7, 15, 33, 0.08);
+}
+
+.companyLink {
+	margin: 15px;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	height: 48px;
+	border-radius: 10px;
+	padding: 0 15px;
+	cursor: pointer;
+	margin-bottom: 2px;
+	color: rgba(0, 0, 0, 0.6);
+	transition: all 0.1s;
+}
+
+.link img {
+	opacity: 0.6;
+	transition: all 0.1s;
+}
+
+.sidebarLink {
+	margin-left: 16px;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.link.active,
+.link:hover {
+	color: rgba(0, 0, 0, 1);
+	background: #F6F6FF;
+}
+
+.link.active img,
+.link:hover img {
+	opacity: 1;
+}
+
+.notificationDot {
+	height: 3.5px;
+	width: 3.5px;
+	border-radius: 50%;
+	background: #E74926;
+	margin-left: 70px;
+}
+
+.sidebarContainer.collapsed {
+	width: 80px;
+	cursor: pointer;
+}
+
+.sidebarContainer.collapsed .linksContainer {
+	border-bottom: none;
+}

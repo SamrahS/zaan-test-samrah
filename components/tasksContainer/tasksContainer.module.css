@@ -1,0 +1,7 @@
+.columnsContainer {
+	background-color: rgba(247, 250, 254);
+	min-height: calc(100vh - 95px);
+	padding: 25px;
+	display: flex;
+	overflow: scroll;
+}

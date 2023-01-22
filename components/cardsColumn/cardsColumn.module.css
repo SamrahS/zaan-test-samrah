@@ -1,0 +1,185 @@
+.mainContainer {
+    background: rgba(7, 15, 33, 0.04);
+    border-radius: 8px;
+    padding: 8px 0;
+    min-width: 215px !important;
+    width: 215px !important;
+    margin: 0 4px;
+    height: fit-content;
+    transition: background 0.2s;
+}
+
+.mainContainer.active {
+    background: rgba(7, 15, 33, 0.04) !important;
+}
+
+.mainContainer.inactive {
+    background: rgba(7, 15, 33, 0);
+}
+
+.filterSpace {
+    background: #F9EFF8 !important;
+}
+
+.sortSpace {
+    background: #EEECFA !important;
+}
+
+.titleContainer {
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleContent {
+    display: flex;
+    align-items: flex-end;
+}
+
+.title,
+.cardCount {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.cardCount {
+    font-weight: 300;
+    font-size: 12px;
+    color: rgba(7, 15, 33, 0.5);
+    margin: 0 2px 0 4px !important;
+}
+
+.filterButton,
+.sortButton {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    margin: 0 0 -2px 6px;
+    position: relative;
+}
+
+.filterButton img,
+.sortButton img {
+    opacity: 0.5;
+}
+
+.cardsContainer {
+    margin-top: 8px;
+    max-height: calc(100vh - 220px);
+    overflow: auto;
+    margin-bottom: 4px;
+}
+
+.addCardButton {
+    display: flex;
+    align-items: center;
+    height: 34px;
+    border: 1px solid rgba(7, 15, 33, 0.1);
+    border-radius: 6px;
+    width: 100%;
+    padding: 0 10px;
+    cursor: pointer;
+    margin: 0 8px;
+    background-color: transparent;
+    width: calc(100% - 16px);
+}
+
+.addCardButton p {
+    margin: 0 0 0 6px;
+    color: #0E8CFF;
+}
+
+.newCardContainer {
+    border-top: 1px solid #0E8CFF;
+    margin-bottom: 10px;
+}
+
+.newCardTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 0;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    width: calc(100% - 16px);
+}
+
+.newCardTitleContainer img {
+    cursor: pointer;
+}
+
+.newCardButtons,
+.newCardTitleContainer,
+.newCardNameInput {
+    margin: 0 8px;
+}
+
+.newCardTitleContainer p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+.newCardNameInput {
+    background: #FFFFFF;
+    border: 1px solid #0E8CFF;
+    border-radius: 8px;
+    resize: none;
+    width: calc(100% - 35px);
+    height: 40px;
+    padding: 8px;
+    font-family: 'Inter' !important;
+    margin-bottom: 6px;
+}
+
+.newCardNameInput::placeholder {
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(7, 15, 33, 0.3);
+}
+
+.newCardButtons {
+    display: flex;
+}
+
+.addButton {
+    padding: 0 15px;
+    background: #0E8CFF;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menuList {
+    list-style: none;
+    width: 250px;
+    padding: 0;
+    margin: 10px 0;
+    z-index: 20;
+}
+
+.menuList li {
+	text-align: left;
+	padding: 10px 15px;
+	transition: background 0.1s;
+	font-weight: 400 !important;
+	font-size: 13px !important;
+	color: rgba(7, 15, 33, 0.7) !important;
+	margin-bottom: 4px;
+	cursor: pointer;
+}
+
+.menuList li:hover {
+	background: rgba(7, 15, 33, 0.04);
+}

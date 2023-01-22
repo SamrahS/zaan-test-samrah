@@ -1,0 +1,21 @@
+.menuList {
+	list-style: none;
+	padding: 0;
+	margin: 10px 0;
+	z-index: 20;
+}
+
+.menuList li {
+	text-align: left;
+	padding: 10px 15px;
+	transition: background 0.1s;
+	font-weight: 400 !important;
+	font-size: 13px !important;
+	color: rgba(7, 15, 33, 0.7) !important;
+	margin-bottom: 4px;
+	cursor: pointer;
+}
+
+.menuList li:hover {
+	background: rgba(7, 15, 33, 0.04);
+}

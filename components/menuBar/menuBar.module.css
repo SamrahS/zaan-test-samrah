@@ -1,0 +1,163 @@
+.menuBarContainer {
+	height: 66px;
+	border-bottom: 1px solid rgba(7, 15, 33, 0.08);
+	display: flex;
+	padding: 0 30px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menuBarContent {
+	display: flex;
+	align-items: center;
+}
+
+.menuBarContent h3 {
+	font-weight: 500;
+	font-size: 22px;
+	margin-right: 25px;
+}
+
+.projectButtonsContainer,
+.teamContainer {
+	display: flex;
+	align-items: center;
+}
+
+.separator {
+	transform: rotate(90deg);
+	width: 30px;
+	border: 0.5px solid #070F21;
+	opacity: 0.2;
+	margin: 0 1px !important;
+}
+
+.projectButtonsContainer button {
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	border: none;
+	box-shadow: none;
+	margin-right: 4px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+	cursor: pointer;
+	background-color: rgba(7, 15, 33, 0.1);
+}
+
+.projectButtonsContainer img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	height: 60%;
+}
+
+.projectButtonsContainer img:last-child {
+	display: none;
+}
+
+.projectButtonsContainer button:hover img:first-child {
+	display: none;
+}
+
+.projectButtonsContainer button:hover img:last-child {
+	display: block;
+}
+
+.projectButtonsContainer button:nth-child(1):hover,
+.projectButtonsContainer button:nth-child(1).activeButton {
+	background-color: #0E8CFF !important;
+}
+
+.projectButtonsContainer button:nth-child(2):hover,
+.projectButtonsContainer button:nth-child(2).activeButton {
+	background-color: #6248FF !important;
+}
+
+.projectButtonsContainer button:nth-child(3):hover,
+.projectButtonsContainer button:nth-child(3).activeButton {
+	background-color: #000 !important;
+}
+
+.projectButtonsContainer button:nth-child(4):hover,
+.projectButtonsContainer button:nth-child(4).activeButton {
+	background-color: #FF34EB !important;
+}
+
+.activeButton {
+	pointer-events: none;
+}
+
+.activeButton img:last-child {
+	display: block !important;
+}
+
+.activeButton img:first-child {
+	display: none !important;
+}
+
+.TeamMemberContainer {
+	margin-left: 4px;
+	margin-top: 4px;
+	position: relative;
+}
+
+.teamMemberCount {
+	position: absolute;
+	right: 0;
+	bottom: 4px;
+	background-color: #0E8CFF;
+	color: #fff;
+	height: 14px;
+	width: 14px;
+	border-radius: 50%;
+	font-size: 11px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	font-weight: 300;
+}
+
+.menuButtonsContainer {
+	display: flex;
+	align-items: center;
+}
+
+.iconButton,
+.filterButton,
+.sortButton {
+	background: #fff;
+	padding: 0 7px;
+	height: 36px;
+	border: 1px solid rgba(7, 15, 33, 0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	margin-left: 12px;
+	font-family: inherit;
+	font-weight: 300;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.menuButtonsContainer button p {
+	margin-left: 5px;
+	font-size: 13px;
+	color: #070F21;
+}
+
+.menuButtonsContainer button:nth-child(3) img {
+	opacity: 0.6;
+}
+
+.sortButton, .filterButton, .iconButton {
+	position: relative;
+}
+

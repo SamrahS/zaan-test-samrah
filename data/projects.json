@@ -1,0 +1,27 @@
+[
+    {
+        "id": "0",
+        "name": "ContactRM",
+        "color": "#FF3477"
+    },
+    {
+        "id": "1",
+        "name": "AgentBook",
+        "color": "#FF9F1A"
+    },
+    {
+        "id": "2",
+        "name": "W4RTeam",
+        "color": "#6248FF"
+    },
+    {
+        "id": "3",
+        "name": "LeadBank",
+        "color": "#8F76FF"
+    },
+    {
+        "id": "4",
+        "name": "Asteler.io",
+        "color": "#70A0FF"
+    }
+]

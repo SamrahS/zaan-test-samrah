@@ -1,0 +1,160 @@
+.menuContainer {
+	margin-bottom: 20px !important;
+}
+
+.menuList {
+	list-style: none;
+	width: 250px;
+	padding: 0;
+	margin: 10px 0;
+	z-index: 20;
+}
+
+.contentContainer {
+	max-height: 500px;
+	overflow: scroll;
+}
+
+.filterSidebar {
+	position: absolute !important;
+	border-radius: 0 !important;
+	right: -125px !important;
+	top: -17px !important;
+	height: fit-content;
+}
+
+.filterSidebar .menuList {
+	width: 350px !important;
+}
+
+.filterSidebarContainer {
+	max-height: 655px !important;
+}
+
+.menuList li {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	text-align: left;
+	padding: 4px 15px;
+	transition: background 0.1s;
+	font-weight: 400 !important;
+	font-size: 13px !important;
+	color: rgba(7, 15, 33, 0.7) !important;
+	margin-top: 4px;
+}
+
+.menuList li label {
+	width: 100%;
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+}
+
+.checkbox {
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	background: #aaa;
+	border: none;
+	outline: none;
+	position: relative;
+	cursor: pointer;
+}
+
+.heading {
+	width: 100%;
+	text-align: left;
+	font-weight: 500;
+	padding: 8px 0 4px 12px !important;
+}
+
+.projectColor {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-right: 8px !important;
+}
+
+.projectName,
+.teamMember,
+.tagName {
+	font-weight: 400 !important;
+	font-size: 12px;
+	opacity: 0.8;
+}
+
+.projectName {
+	opacity: 0.6;
+}
+
+.tagName {
+	padding: 2px 5px !important;
+	font-size: 10px !important;
+	border-radius: 10px;
+}
+
+.tagItem {
+	padding: 0 15px;
+	margin: 0 !important;
+}
+
+.showAllButton {
+	width: 100%;
+	margin-top: 8px;
+	text-align: left;
+	padding-left: 16px;
+	background: none;
+	border: none;
+	color: #0E8CFF;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.memberImage {
+	margin-right: 8px !important;
+	opacity: 1 !important;
+}
+
+.menuButtonsContainer {
+	height: 50px;
+	border-top: 1px solid rgba(7, 15, 33, 0.1);
+	display: flex;
+	justify-content: flex-end;
+}
+
+.clearButton,
+.applyButton {
+	margin: 8px 4px 8px 0;
+	background: none;
+	border: none;
+	border-radius: 8px;
+	font-weight: 400;
+	font-size: 14px;
+	display: flex;
+	opacity: 0.5;
+	align-items: center;
+	padding: 10px 12px !important;
+}
+
+.applyButton {
+	background: #0E8CFF;
+	color: #fff;
+	opacity: 1;
+	margin-right: 10px;
+}
+
+.saveViewButtonContainer {
+	width: 100%;
+}
+
+.saveViewButtonContainer button {
+	font-weight: 500 !important;
+	font-size: 13px !important;
+	color: #6248FF;
+	border: 1px solid rgba(7, 15, 33, 0.1);
+	border-radius: 8px;
+	margin-left: 8px;
+	margin-bottom: 8px;
+	opacity: 1;
+}

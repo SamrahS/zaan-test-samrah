@@ -1,0 +1,131 @@
+.card {
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 8px;
+	width: calc(100% - 32px);
+	margin: 0 8px 8px 8px;
+	color: #070F21;
+}
+
+.card p {
+	text-align: left;
+	margin-left: 0 !important;
+}
+
+.projectContainer,
+.cardDetails {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.projectContainer,
+.projectContainer div {
+	margin-bottom: 3px;
+	display: flex;
+	align-items: center;
+}
+
+.tagsContainer {
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.projectContainer img,
+.iconsContainer p,
+.iconsContainer img {
+	opacity: 0.8 !important;
+}
+
+.projectContainer div {
+	margin-bottom: 0 !important;
+}
+
+.projectColor {
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+}
+
+.projectName {
+	font-size: 11px !important;
+	opacity: 0.6;
+	font-weight: 300 !important;
+	padding-left: 4px;
+}
+
+.cardTitle {
+	font-weight: 400;
+	font-size: 12px;
+	margin-bottom: 8px !important;
+}
+
+.tag { 
+	font-size: 10px !important;
+	font-weight: 400 !important;
+	border-radius: 10px !important;
+	padding: 0 4px;
+	margin-right: 4px !important;
+	opacity: 0.8;
+}
+
+.iconsContainer {
+	display: flex;
+	align-items: center;
+}
+
+.iconsContainer img {
+	margin-left: 8px;
+}
+
+.iconsContainer img:first-child {
+	margin-left: 0px;
+}
+
+.iconsContainer p {
+	font-size: 10px !important;
+	opacity: 0.6;
+	margin-left: 4px !important;
+	font-weight: 400 !important;
+}
+
+.cardDetails {
+	margin-top: 8px;
+}
+
+.cardDetails p {
+	background: rgba(7, 15, 33, 0.08);
+	border-radius: 4px;
+	padding: 2px 4px;
+	font-weight: 400 !important;
+	font-size: 10px !important;
+	width: fit-content;
+	color: rgba(7, 15, 33, 0.5) !important;
+}
+
+.archiveInfo {
+	background-color: #E9E5FF;
+	width: 100%;
+	padding: 0;
+	margin-left: -8px;
+	bottom: -10px;
+	position: relative;
+	height: 23px;
+	border-radius: 0 0 8px 8px;
+	display: flex;
+	align-items: center;
+	padding: 0 8px;
+	font-size: 11px;
+	color: rgba(7, 15, 33, 0.6);
+}
+
+.archiveInfo img {
+	margin-right: 6px;
+}
+
+.columnName { 
+	margin: 0 4px;
+	font-weight: 500;
+}
+
