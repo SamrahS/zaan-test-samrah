@@ -8,6 +8,7 @@
 	border-radius: 8px;
 	padding: 0;
 	display: flex;
+	z-index: 1;
 }
 
 .colorPickerContainer>div {
