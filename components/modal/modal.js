@@ -12,7 +12,7 @@ export default function SaveViewModal(props) {
 						{props.titleIcon && <Image className={Styles.titleButton} src={`./icons/${props.titleIcon}.svg`} alt={props.titleIcon} width="17" height="17" />}
 						<p>{props.title}</p>
 					</div>
-					<Image onClick={() => props.closeModal()} className={Styles.titleButton} src="./icons/Close-dark.svg" alt="close" width="17" height="17" />
+					<Image onClick={() => props.closeModal()} className={Styles.titleButton} src="./icons/close-dark.svg" alt="close" width="17" height="17" />
 				</div>
 				<div className={Styles.modalBody}>
 					{props.children}
