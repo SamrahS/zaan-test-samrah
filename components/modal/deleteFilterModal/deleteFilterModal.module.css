@@ -1,0 +1,33 @@
+.deleteText {
+	margin-top: 10px;
+	font-weight: 400;
+	font-size: 14px;
+	opacity: 0.7;
+	padding: 0 20px 20px 20px;
+}
+
+.buttonsContainer {
+	display: flex;
+	margin-top: 20px;
+	padding: 10px 20px 0 20px;
+	border-top: 1px solid rgba(7, 15, 33, 0.1);
+	justify-content: flex-end;
+}
+
+.buttonsContainer div {
+	padding: 10px 15px;
+	background: none;
+	border: none;
+	font-size: 13px;
+	color: #999;
+	margin-top: 5px;
+	cursor: pointer;
+	border-radius: 6px;
+	background: rgba(7, 15, 33, 0.04);
+	margin-left: 15px;
+}
+
+.buttonsContainer div:last-child {
+	background-color: #E74926;
+	color: #fff;
+}

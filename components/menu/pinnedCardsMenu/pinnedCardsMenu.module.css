@@ -1,0 +1,48 @@
+.searchContainer {
+	width: 300px;
+	position: relative;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(7, 15, 33, 0.08) !important;
+}
+
+.searchContainer img {
+	position: absolute;
+	left: 15px;
+	top: -4px;
+	bottom: 0;
+	margin: auto;
+	opacity: 0.4;
+}
+
+.searchContainer input {
+	width: calc(100% - 40px);
+	height: 95%;
+	border: none;
+	outline: none;
+	box-shadow: none;
+	margin-top: 10px;
+	padding-left: 40px;
+}
+
+.searchContainer input::placeholder {
+	opacity: 0.6;
+}
+
+.cardsContainer {
+	background: #EFF2F5;
+	border: 1px solid rgba(7, 15, 33, 0.1);
+	box-shadow: 0px 12px 24px rgba(174, 178, 193, 0.2);
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	overflow: scroll;
+	padding-top: 75px;
+	border-radius: 6px;
+}
+
